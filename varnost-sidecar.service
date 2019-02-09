@@ -1,0 +1,8 @@
+[Unit]
+Description=Varnost Endpoint Monitoring
+
+[Service]
+ExecStart=/opt/varnost/sidecar/varnost-sidecar
+
+[Install]
+WantedBy=multi-user.target
